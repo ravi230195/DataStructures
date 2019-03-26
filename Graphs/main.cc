@@ -14,7 +14,7 @@ int main()
 	Graph* graph = new DiaGraph(3);
 	graph->addEdge(0,1,4);
 	graph->addEdge(0,2,5);
-	graph->addEdge(1,2,9);
+	graph->addEdge(1,2,41);
 	graph->display();
 	graph->addNode();
 	graph->addNode();
