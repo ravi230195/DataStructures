@@ -7,9 +7,11 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "Graphs.hh"
+#include "AdjMatrixGraphs.hh"
 #include "trace.hh"
+#include <IGraph.hh>
 
+using namespace AdjMatrix;
 using namespace std;
 
 Graph::Graph(int Node):max_size(Node)

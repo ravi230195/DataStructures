@@ -7,9 +7,11 @@
 
 #include <iostream>
 #include <stdio.h>
-#include "DiaGraph.hh"
 #include "trace.hh"
+#include <IGraph.hh>
+#include "AdjMatrixDiaGraph.hh"
 
+using namespace AdjMatrix;
 void
 DiaGraph::resizeMatrix(int size)
 {

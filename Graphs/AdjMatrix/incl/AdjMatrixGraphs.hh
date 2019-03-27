@@ -10,8 +10,11 @@
 
 #include <stdio.h>
 #include <stddef.h>
+#include <IGraph.hh>
 
-class Graph
+namespace AdjMatrix
+{
+class Graph: public IGraph
 {
 protected:
     int max_size;
@@ -28,12 +31,11 @@ public:
     {
     	deleteMatrix(matrix_size, AdjMatrix);
     }
-    void addNode();
-    void deleteNode(int Node){};
-    void display();
+    virtual void addNode();
+    virtual void deleteNode(int Node){};
+    virtual void display();
     virtual void addEdge(int orgin, int dest, int weight = 1);
-
 };
-
+}
 
 #endif /* GRAPHS_HH_ */

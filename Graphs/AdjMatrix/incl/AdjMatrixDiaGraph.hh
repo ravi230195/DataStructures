@@ -9,8 +9,10 @@
 #define DIAGRAPH_HH_
 
 #include <trace.hh>
-#include <Graphs.hh>
+#include <AdjMatrixGraphs.hh>
 
+namespace AdjMatrix
+{
 class DiaGraph: public Graph
 {
 public:
@@ -22,7 +24,7 @@ public:
 protected:
     virtual void resizeMatrix(int size);
 };
-
+}
 
 
 #endif /* DIAGRAPH_HH_ */

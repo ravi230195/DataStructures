@@ -1,7 +1,7 @@
 eclipse.preferences.version=1
 environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.613545049/MINGW_HOME/delimiter=;
 environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.613545049/MINGW_HOME/operation=replace
-environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.613545049/MINGW_HOME/value=
+environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.613545049/MINGW_HOME/value=C\:\\MinGW64\\
 environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.613545049/MSYS_HOME/delimiter=;
 environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.613545049/MSYS_HOME/operation=replace
 environment/project/cdt.managedbuild.config.gnu.mingw.exe.debug.613545049/MSYS_HOME/value=C\:\\MinGW64\\mingw64

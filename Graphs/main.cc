@@ -5,13 +5,17 @@
  *      Author: erasunn
  */
 
-#include <Graphs.hh>
-#include <DiaGraph.hh>
+#include <AdjMatrixGraphs.hh>
 #include <trace.hh>
+#include <IGraph.hh>
+#include "AdjMatrixDiaGraph.hh"
+#include "EdgeListGraph.hh"
+#include "DiaEdgeListGraph.hh"
 
 int main()
 {
-	Graph* graph = new DiaGraph(3);
+
+	IGraph* graph = new EdgeListGraph::DiaEgdeListGraph(3);
 	graph->addEdge(0,1,4);
 	graph->addEdge(0,2,5);
 	graph->addEdge(1,2,41);
