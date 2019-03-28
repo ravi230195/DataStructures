@@ -17,7 +17,12 @@ public:
     virtual void addEdge(int orgin, int dest, int weight = 1) = 0;
 	virtual ~ IGraph()
 	{};
+
+	// Graphs search Algo
+	virtual void BFS(int s, int level =0) = 0;
 };
+
+
 
 
 #endif /* IGRAPH_HH_ */

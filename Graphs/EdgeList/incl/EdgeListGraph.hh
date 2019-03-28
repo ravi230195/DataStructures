@@ -30,6 +30,8 @@ public:
     virtual void display();
     virtual void addEdge(int orgin, int dest, int weight = 1);
 
+    virtual void BFS(int s){}   // Not implemented
+
 };
 }
 
