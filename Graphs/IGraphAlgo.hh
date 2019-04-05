@@ -1,22 +1,22 @@
 /*
- * IGraph.hh
+ * IGraphAlgo.hh
  *
- *  Created on: Mar 26, 2019
+ *  Created on: Apr 1, 2019
  *      Author: erasunn
  */
 
-#ifndef IGRAPH_HH_
-#define IGRAPH_HH_
+#ifndef IGRAPHALGO_HH_
+#define IGRAPHALGO_HH_
 
-class IGraph
+#include <IGraph.hh>
+
+class IGraphAlgo : public IGraph
 {
 public:
-    virtual void addNode() = 0;
-    virtual void deleteNode(int Node) =0;
-    virtual void display() = 0;
-    virtual void addEdge(int orgin, int dest, int weight = 1) = 0;
-	virtual ~ IGraph()
-	{};
+	virtual ~IGraphAlgo()
+	{
+
+	}
 
 	// Graphs search Algo
 	virtual void BFS(int s, int level =0) = 0;
@@ -29,16 +29,12 @@ public:
 	 *	4. cross edges
 	 */
 	virtual void detectEdges() = 0;
-
 	/*
 	 * Shortest Path Algos
 	 *
 	 */
 	virtual void dijkstra(int s = 0) = 0;
-
 };
 
 
-
-
-#endif /* IGRAPH_HH_ */
+#endif /* IGRAPHALGO_HH_ */

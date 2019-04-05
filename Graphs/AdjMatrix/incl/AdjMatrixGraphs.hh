@@ -35,8 +35,6 @@ public:
     virtual void deleteNode(int Node){};
     virtual void display();
     virtual void addEdge(int orgin, int dest, int weight = 1);
-	// Graphs search Algo
-	virtual void BFS(int s , int level = 0){}   // Not implemented
 };
 }
 
