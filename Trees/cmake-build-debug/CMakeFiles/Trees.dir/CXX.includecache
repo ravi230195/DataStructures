@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ravi/CLionProjects/Trees/Tree.cpp
+Tree.h
+/home/ravi/CLionProjects/Trees/Tree.h
+stack
+-
+queue
+-
+
+/home/ravi/CLionProjects/Trees/Tree.h
+iostream
+-
+vector
+-
+map
+-
+stack
+-
+
+/home/ravi/CLionProjects/Trees/main.cpp
+iostream
+-
+Tree.h
+/home/ravi/CLionProjects/Trees/Tree.h
+vector
+-
+

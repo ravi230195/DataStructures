@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ravi/CLionProjects/Algorithms/Algorithms.h
+iostream
+-
+vector
+-
+
+/home/ravi/CLionProjects/Algorithms/main.cpp
+iostream
+-
+Algorithms.h
+/home/ravi/CLionProjects/Algorithms/Algorithms.h
+
