@@ -34,6 +34,7 @@ namespace TreeUtil
      void  printInorder( Node* node);
      void  printPostorder( Node* node);
      void  printInOrderUsingStack(Node* node);
+     vector<int> preorderTraversalUsingStack(Node* root)
      Node* insert(Node* node, int val);
      Node* deleteNode(Node* node, int val);
      void findElement(Node *node, int val);
