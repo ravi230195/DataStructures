@@ -90,6 +90,33 @@ void TreeUtil::printInOrderUsingStack(Node *node) {
     }
 }
 
+
+vector<int> TreeUtil::preorderTraversalUsingStack(Node* root) {
+    vector<int> ans;
+    if (root == NULL)
+        return ans;
+    else
+    {
+        stack<Node*> s;
+        Node* temp = root;
+        while(!s.empty() || temp != NULL)
+        {
+            if (temp != NULL)
+            {
+                ans.push_back(temp->val);
+                s.push(temp);
+                temp = temp->left;
+            }
+            else
+            {
+                temp = s.top()->right;
+                s.pop();
+            }
+        }
+    }
+    return ans;
+}
+
 Node *TreeUtil::insert(Node *node, int val) {
     if (node == NULL) {
         return new Node(val);
